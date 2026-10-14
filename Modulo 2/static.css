@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.filmes {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.filme {
+    width: 200px;
+    padding: 15px;
+    background-color: #1a1a1a;
+    border-radius: 15px;
+}
+
+.filme img {
+    width: 200px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.filme a {
+    color: white;
+    text-decoration: none;
+}
+
+.filme h2 {
+    font-size: 20px;
+}
